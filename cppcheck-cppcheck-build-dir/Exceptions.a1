@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="446353757">
+        <error id="unreachableCode" severity="style" msg="Statements following return, break, continue, goto or throw will never be executed." verbose="Statements following return, break, continue, goto or throw will never be executed." cwe="561" file0="D:/School/CS 405/Exceptions.cpp">
+            <location file="D:\School\CS 405\Exceptions.cpp" line="10" column="5"/>
+        </error>
+        <error id="unreachableCode" severity="style" msg="Statements following return, break, continue, goto or throw will never be executed." verbose="Statements following return, break, continue, goto or throw will never be executed." cwe="561" file0="D:/School/CS 405/Exceptions.cpp">
+            <location file="D:\School\CS 405\Exceptions.cpp" line="33" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="do_even_more_custom_application_logic" lineNumber="6"/>
+    <functiondecl functionName="do_custom_application_logic" lineNumber="14"/>
+    <functiondecl functionName="divide" lineNumber="37"/>
+    <functiondecl functionName="do_division" lineNumber="49"/>
+    <functiondecl functionName="main" lineNumber="74"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="den"/>
+    <functioncall functionName="denominator"/>
+    <functioncall functionName="divide"/>
+    <functioncall functionName="do_custom_application_logic"/>
+    <functioncall functionName="do_division"/>
+    <functioncall functionName="do_even_more_custom_application_logic"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="invalid_argument"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="numerator"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="throw"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

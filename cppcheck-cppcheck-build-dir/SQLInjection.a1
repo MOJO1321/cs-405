@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3183091264">
+        <error id="unsignedPositive" severity="style" msg="Unsigned expression &apos;localCopy.find_last_of(str_where)&apos; can&apos;t be negative so it is unnecessary to test it." verbose="Unsigned expression &apos;localCopy.find_last_of(str_where)&apos; can&apos;t be negative so it is unnecessary to test it." cwe="570" file0="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp">
+            <location file="D:\School\CS 405\SQLInjection\CS 405 M2 SQLInjection code files\SQLInjection.cpp" line="114" column="40" info="Unsigned positive"/>
+            <symbol>localCopy.find_last_of(str_where)</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;azColName&apos; can be declared with const" verbose="Parameter &apos;azColName&apos; can be declared with const" cwe="398" file0="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp">
+            <location file="D:\School\CS 405\SQLInjection\CS 405 M2 SQLInjection code files\SQLInjection.cpp" line="19" column="74" info="Parameter &apos;azColName&apos; can be declared with const"/>
+            <symbol>azColName</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;records" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:3524:16" call-funcname="sqlite3_open" call-argnr="2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="195" col="28" call-argexpr="&amp;db" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="16" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:40:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="6" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="139" col="10" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:107:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="163" col="8" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:155:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="sqlite3_file" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="684" col="1" hash="12384231546787328463"/>
+<class name="sqlite3_io_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="783" col="1" hash="1686523182501424205"/>
+<class name="sqlite3_vfs" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1369" col="1" hash="8596091692036701035"/>
+<class name="sqlite3_mem_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1666" col="1" hash="16080759355983540549"/>
+<class name="sqlite3_module" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6710" col="1" hash="12981837637020375371"/>
+<class name="sqlite3_index_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6850" col="1" hash="9215372423841984756"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6853" col="3" hash="17427608019712005021"/>
+<class name="sqlite3_index_info::sqlite3_index_orderby" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6860" col="3" hash="3280381020808856114"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint_usage" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6865" col="3" hash="18199815588226277501"/>
+<class name="sqlite3_vtab" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6996" col="1" hash="4883730504458480304"/>
+<class name="sqlite3_vtab_cursor" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7020" col="1" hash="18234665694401088012"/>
+<class name="sqlite3_mutex_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7525" col="1" hash="7283514176986351854"/>
+<class name="sqlite3_pcache_page" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8278" col="1" hash="8577613816717883150"/>
+<class name="sqlite3_pcache_methods2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8443" col="1" hash="9399121309369614869"/>
+<class name="sqlite3_pcache_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8466" col="1" hash="401876658799482746"/>
+<class name="sqlite3_snapshot" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9512" col="9" hash="4549121444217157112"/>
+<class name="sqlite3_rtree_geometry" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9869" col="1" hash="16192275899335975448"/>
+<class name="sqlite3_rtree_query_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9901" col="1" hash="4243469427931838446"/>
+<class name="Fts5PhraseIter" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11646" col="1" hash="15198371742387797761"/>
+<class name="Fts5ExtensionApi" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11862" col="1" hash="3045095057790986629"/>
+<class name="fts5_tokenizer" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12098" col="1" hash="12920728099195194428"/>
+<class name="fts5_api" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12134" col="1" hash="3108923474221853984"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;records" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:3524:16" call-funcname="sqlite3_open" call-argnr="2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="195" col="28" call-argexpr="&amp;db" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="16" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:40:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="6" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="139" col="10" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:107:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="163" col="8" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:155:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="sqlite3_file" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="684" col="1" hash="12384231546787328463"/>
+<class name="sqlite3_io_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="783" col="1" hash="1686523182501424205"/>
+<class name="sqlite3_vfs" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1369" col="1" hash="8596091692036701035"/>
+<class name="sqlite3_mem_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1666" col="1" hash="16080759355983540549"/>
+<class name="sqlite3_module" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6710" col="1" hash="12981837637020375371"/>
+<class name="sqlite3_index_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6850" col="1" hash="9215372423841984756"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6853" col="3" hash="17427608019712005021"/>
+<class name="sqlite3_index_info::sqlite3_index_orderby" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6860" col="3" hash="3280381020808856114"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint_usage" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6865" col="3" hash="18199815588226277501"/>
+<class name="sqlite3_vtab" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6996" col="1" hash="4883730504458480304"/>
+<class name="sqlite3_vtab_cursor" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7020" col="1" hash="18234665694401088012"/>
+<class name="sqlite3_mutex_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7525" col="1" hash="7283514176986351854"/>
+<class name="sqlite3_pcache_page" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8278" col="1" hash="8577613816717883150"/>
+<class name="sqlite3_pcache_methods2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8443" col="1" hash="9399121309369614869"/>
+<class name="sqlite3_pcache_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8466" col="1" hash="401876658799482746"/>
+<class name="sqlite3_snapshot" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9512" col="9" hash="4549121444217157112"/>
+<class name="sqlite3_rtree_geometry" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9869" col="1" hash="16192275899335975448"/>
+<class name="sqlite3_rtree_query_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9901" col="1" hash="4243469427931838446"/>
+<class name="Fts5PhraseIter" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11646" col="1" hash="15198371742387797761"/>
+<class name="Fts5ExtensionApi" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11862" col="1" hash="3045095057790986629"/>
+<class name="fts5_tokenizer" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12098" col="1" hash="12920728099195194428"/>
+<class name="fts5_api" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12134" col="1" hash="3108923474221853984"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;records" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:3524:16" call-funcname="sqlite3_open" call-argnr="2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="195" col="28" call-argexpr="&amp;db" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="16" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:40:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="6" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="139" col="10" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:107:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="163" col="8" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:155:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="sqlite3_file" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="684" col="1" hash="12384231546787328463"/>
+<class name="sqlite3_io_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="783" col="1" hash="1686523182501424205"/>
+<class name="sqlite3_vfs" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1369" col="1" hash="8596091692036701035"/>
+<class name="sqlite3_mem_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1666" col="1" hash="16080759355983540549"/>
+<class name="sqlite3_module" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6710" col="1" hash="12981837637020375371"/>
+<class name="sqlite3_index_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6850" col="1" hash="9215372423841984756"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6853" col="3" hash="17427608019712005021"/>
+<class name="sqlite3_index_info::sqlite3_index_orderby" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6860" col="3" hash="3280381020808856114"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint_usage" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6865" col="3" hash="18199815588226277501"/>
+<class name="sqlite3_vtab" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6996" col="1" hash="4883730504458480304"/>
+<class name="sqlite3_vtab_cursor" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7020" col="1" hash="18234665694401088012"/>
+<class name="sqlite3_mutex_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7525" col="1" hash="7283514176986351854"/>
+<class name="sqlite3_pcache_page" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8278" col="1" hash="8577613816717883150"/>
+<class name="sqlite3_pcache_methods2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8443" col="1" hash="9399121309369614869"/>
+<class name="sqlite3_pcache_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8466" col="1" hash="401876658799482746"/>
+<class name="sqlite3_snapshot" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9512" col="9" hash="4549121444217157112"/>
+<class name="sqlite3_rtree_geometry" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9869" col="1" hash="16192275899335975448"/>
+<class name="sqlite3_rtree_query_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9901" col="1" hash="4243469427931838446"/>
+<class name="Fts5PhraseIter" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11646" col="1" hash="15198371742387797761"/>
+<class name="Fts5ExtensionApi" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11862" col="1" hash="3045095057790986629"/>
+<class name="fts5_tokenizer" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12098" col="1" hash="12920728099195194428"/>
+<class name="fts5_api" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12134" col="1" hash="3108923474221853984"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;records" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:3524:16" call-funcname="sqlite3_open" call-argnr="2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="195" col="28" call-argexpr="&amp;db" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="16" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:40:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="6" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="139" col="10" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:107:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="163" col="8" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:155:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="sqlite3_file" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="684" col="1" hash="12384231546787328463"/>
+<class name="sqlite3_io_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="783" col="1" hash="1686523182501424205"/>
+<class name="sqlite3_vfs" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1369" col="1" hash="8596091692036701035"/>
+<class name="sqlite3_mem_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1666" col="1" hash="16080759355983540549"/>
+<class name="sqlite3_module" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6710" col="1" hash="12981837637020375371"/>
+<class name="sqlite3_index_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6850" col="1" hash="9215372423841984756"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6853" col="3" hash="17427608019712005021"/>
+<class name="sqlite3_index_info::sqlite3_index_orderby" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6860" col="3" hash="3280381020808856114"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint_usage" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6865" col="3" hash="18199815588226277501"/>
+<class name="sqlite3_vtab" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6996" col="1" hash="4883730504458480304"/>
+<class name="sqlite3_vtab_cursor" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7020" col="1" hash="18234665694401088012"/>
+<class name="sqlite3_mutex_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7525" col="1" hash="7283514176986351854"/>
+<class name="sqlite3_pcache_page" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8278" col="1" hash="8577613816717883150"/>
+<class name="sqlite3_pcache_methods2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8443" col="1" hash="9399121309369614869"/>
+<class name="sqlite3_pcache_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8466" col="1" hash="401876658799482746"/>
+<class name="sqlite3_snapshot" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9512" col="9" hash="4549121444217157112"/>
+<class name="sqlite3_rtree_geometry" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9869" col="1" hash="16192275899335975448"/>
+<class name="sqlite3_rtree_query_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9901" col="1" hash="4243469427931838446"/>
+<class name="Fts5PhraseIter" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11646" col="1" hash="15198371742387797761"/>
+<class name="Fts5ExtensionApi" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11862" col="1" hash="3045095057790986629"/>
+<class name="fts5_tokenizer" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12098" col="1" hash="12920728099195194428"/>
+<class name="fts5_api" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12134" col="1" hash="3108923474221853984"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="28" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="67" col="24" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="4" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;records" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="5" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="18" call-argexpr="&amp;error_message" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:3524:16" call-funcname="sqlite3_open" call-argnr="2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="195" col="28" call-argexpr="&amp;db" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="48" col="16" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:40:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h:402:16" call-funcname="sqlite3_exec" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="96" col="6" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="139" col="10" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:107:6" my-argnr="1"/>
+<function-call call-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:78:6" call-funcname="run_query" call-argnr="1" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp" line="163" col="8" my-id="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/SQLInjection.cpp:155:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="sqlite3_file" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="684" col="1" hash="12384231546787328463"/>
+<class name="sqlite3_io_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="783" col="1" hash="1686523182501424205"/>
+<class name="sqlite3_vfs" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1369" col="1" hash="8596091692036701035"/>
+<class name="sqlite3_mem_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="1666" col="1" hash="16080759355983540549"/>
+<class name="sqlite3_module" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6710" col="1" hash="12981837637020375371"/>
+<class name="sqlite3_index_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6850" col="1" hash="18444749101194362683"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6853" col="3" hash="17427608019712005021"/>
+<class name="sqlite3_index_info::sqlite3_index_orderby" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6860" col="3" hash="3280381020808856114"/>
+<class name="sqlite3_index_info::sqlite3_index_constraint_usage" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6865" col="3" hash="18199815588226277501"/>
+<class name="sqlite3_vtab" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="6996" col="1" hash="4883730504458480304"/>
+<class name="sqlite3_vtab_cursor" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7020" col="1" hash="18234665694401088012"/>
+<class name="sqlite3_mutex_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="7525" col="1" hash="7283514176986351854"/>
+<class name="sqlite3_pcache_page" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8278" col="1" hash="8577613816717883150"/>
+<class name="sqlite3_pcache_methods2" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8443" col="1" hash="9399121309369614869"/>
+<class name="sqlite3_pcache_methods" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="8466" col="1" hash="401876658799482746"/>
+<class name="sqlite3_snapshot" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9512" col="9" hash="4549121444217157112"/>
+<class name="sqlite3_rtree_geometry" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9869" col="1" hash="16192275899335975448"/>
+<class name="sqlite3_rtree_query_info" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="9901" col="1" hash="4243469427931838446"/>
+<class name="Fts5PhraseIter" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11646" col="1" hash="15198371742387797761"/>
+<class name="Fts5ExtensionApi" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="11862" col="1" hash="3045095057790986629"/>
+<class name="fts5_tokenizer" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12098" col="1" hash="12920728099195194428"/>
+<class name="fts5_api" file="D:/School/CS 405/SQLInjection/CS 405 M2 SQLInjection code files/sqlite3.h" line="12134" col="1" hash="3108923474221853984"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="callback" lineNumber="19"/>
+    <functiondecl functionName="initialize_database" lineNumber="40"/>
+    <functiondecl functionName="run_query" lineNumber="78"/>
+    <functiondecl functionName="run_query_injection" lineNumber="107"/>
+    <functiondecl functionName="dump_results" lineNumber="144"/>
+    <functiondecl functionName="run_queries" lineNumber="155"/>
+    <functiondecl functionName="main" lineNumber="182"/>
+    <functiondecl functionName="callback" lineNumber="19"/>
+    <functiondecl functionName="initialize_database" lineNumber="40"/>
+    <functiondecl functionName="run_query" lineNumber="78"/>
+    <functiondecl functionName="run_query_injection" lineNumber="107"/>
+    <functiondecl functionName="dump_results" lineNumber="144"/>
+    <functiondecl functionName="run_queries" lineNumber="155"/>
+    <functiondecl functionName="main" lineNumber="182"/>
+    <functiondecl functionName="callback" lineNumber="19"/>
+    <functiondecl functionName="initialize_database" lineNumber="40"/>
+    <functiondecl functionName="run_query" lineNumber="78"/>
+    <functiondecl functionName="run_query_injection" lineNumber="107"/>
+    <functiondecl functionName="dump_results" lineNumber="144"/>
+    <functiondecl functionName="run_queries" lineNumber="155"/>
+    <functiondecl functionName="main" lineNumber="182"/>
+    <functiondecl functionName="callback" lineNumber="19"/>
+    <functiondecl functionName="initialize_database" lineNumber="40"/>
+    <functiondecl functionName="run_query" lineNumber="78"/>
+    <functiondecl functionName="run_query_injection" lineNumber="107"/>
+    <functiondecl functionName="dump_results" lineNumber="144"/>
+    <functiondecl functionName="run_queries" lineNumber="155"/>
+    <functiondecl functionName="main" lineNumber="182"/>
+    <functiondecl functionName="callback" lineNumber="19"/>
+    <functiondecl functionName="initialize_database" lineNumber="40"/>
+    <functiondecl functionName="run_query" lineNumber="78"/>
+    <functiondecl functionName="run_query_injection" lineNumber="107"/>
+    <functiondecl functionName="dump_results" lineNumber="144"/>
+    <functiondecl functionName="run_queries" lineNumber="155"/>
+    <functiondecl functionName="main" lineNumber="182"/>
+    <functioncall functionName="GetSQLInjection"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dump_results"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="error_message"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="icase"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialize_database"/>
+    <functioncall functionName="injectedSQL"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="localCopy"/>
+    <functioncall functionName="make_tuple"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="possible_vector"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="record"/>
+    <functioncall functionName="records"/>
+    <functioncall functionName="regex_search"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="run_queries"/>
+    <functioncall functionName="run_query"/>
+    <functioncall functionName="run_query_injection"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sql"/>
+    <functioncall functionName="sqlite3_close"/>
+    <functioncall functionName="sqlite3_errmsg"/>
+    <functioncall functionName="sqlite3_exec"/>
+    <functioncall functionName="sqlite3_free"/>
+    <functioncall functionName="sqlite3_int64"/>
+    <functioncall functionName="sqlite3_open"/>
+    <functioncall functionName="sqlite3_syscall_ptr"/>
+    <functioncall functionName="sqlite3_uint64"/>
+    <functioncall functionName="sqlite_int64"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="str_where"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="tuple"/>
+    <functioncall functionName="va_list"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,7 @@
+callback call:[make_tuple,push_back] noreturn:[push_back]
+initialize_database call:[c_str,sqlite3_exec,sqlite3_free]
+run_query call:[GetSQLInjection,c_str,clear,regex_search,sqlite3_exec,sqlite3_free,string]
+run_query_injection global:[str_where] call:[append,back,begin,end,find_last_of,injectedSQL,localCopy,pop_back,rand,run_query,transform] noreturn:[pop_back,run_query]
+dump_results call:[size]
+run_queries call:[dump_results,run_query,run_query_injection] noreturn:[dump_results]
+main call:[initialize_database,run_queries,sqlite3_close,sqlite3_errmsg,sqlite3_open,srand,time] noreturn:[run_queries,sqlite3_close]

@@ -1,0 +1,5 @@
+do_even_more_custom_application_logic call:[runtime_error]
+do_custom_application_logic call:[do_even_more_custom_application_logic,invalid_argument,throw,what]
+divide call:[return,runtime_error] noreturn:[return,runtime_error]
+do_division call:[divide,what] noreturn:[divide]
+main call:[do_custom_application_logic,do_division,what] noreturn:[do_custom_application_logic,what]
